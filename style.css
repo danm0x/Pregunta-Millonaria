@@ -1,0 +1,137 @@
+@font-face {
+    font-family: megafont;
+    src: url(fonts/Mega\ Surprise.ttf);
+}
+
+@font-face {
+    font-family: purplefont;
+    src: url(fonts/Purple\ Smile.ttf);
+}
+
+@media screen and (max-width: 560px) {
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 254, 232);
+    margin: 0;
+    padding: 0;
+    font-family: purplefont;
+}
+
+.titleresponsive {
+    max-width: 43.75em;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+#title {
+    font-size: 3.5em;
+    font-family: megafont;
+    display: inline;
+    border: .1em dashed rgb(0, 0, 0);
+    border-radius: .3em;
+}
+
+.iconposition {
+    text-align: center;
+}
+
+#icon {
+    background-color: rgb(90, 150, 255);
+    width: 90em;
+    border-radius: .4em;
+    margin-bottom: 3em;
+}
+
+.background {
+    background-color: rgb(230, 228, 206);
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    padding: 2em;
+    border: .2em solid rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+.ask {
+    text-align: center;
+    margin-bottom: 5em;
+    padding-top: 1em;
+    border: .2em dashed rgb(0, 0, 0);
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.ask i {
+    color: rgb(145, 170, 216);
+}
+
+.containerdollars {
+    background-color: rgb(170, 200, 255);
+    width: 20em;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+}
+
+.containerdollars a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.containerdollars a:visited{
+    color: rgb(0, 0, 0);
+}
+
+
+#moneyicon {
+    font-size: 8em;
+}
+
+
+.containeradvice {
+    background-color: rgb(170, 200, 255);
+    width: 20em;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 33.94em;
+    left: 60em;
+    border-radius: 2em;
+}
+
+.containeradvice a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.containeradvice a:visited {
+    color: rgb(0, 0, 0);
+}
+
+#personicon {
+    font-size: 8em;
+}
+
+.containerdollars:hover {
+    scale: .9;
+    cursor: pointer;
+}
+
+.containeradvice:hover {
+    scale: .9;
+    cursor: pointer;
+}
